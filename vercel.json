@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://your-netlify-app.netlify.app/api/$1" }
+  ],
+  "build": {
+    "env": {
+      "VITE_API_URL": "https://your-netlify-app.netlify.app"
+    }
+  }
+}
