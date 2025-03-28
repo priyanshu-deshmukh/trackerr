@@ -1,5 +1,5 @@
 #!/bin/bash
-
+chmod +x netlify-build.sh
 # Install dependencies
 npm install
 
