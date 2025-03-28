@@ -1,8 +1,8 @@
 #!/bin/bash
-chmod +x netlify-build.sh
 # Install dependencies
 npm install
 
+chmod +x netlify-build.sh
 # Build Vite app (frontend) through npx (doesn't require global installation)
 cd client
 npx vite build --outDir ../dist-client
